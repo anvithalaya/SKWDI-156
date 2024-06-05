@@ -1,0 +1,32 @@
+/* Custom Styles */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1717170647980-1b0e2fb163a6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+/* Features Section */
+.features .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.features .card:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa;
+}
